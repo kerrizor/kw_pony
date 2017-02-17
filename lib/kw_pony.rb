@@ -12,7 +12,7 @@ module KwPony
     Bundler::Plugin::API.command "echo", self
 
     def exec(command, args)
-      puts "You gave me \#{args.join(", ")}"
+      puts "You gave me #{args.join(", ")}"
     end
   end
 end
